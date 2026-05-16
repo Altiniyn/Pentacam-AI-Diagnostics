@@ -15,11 +15,6 @@ __pycache__/
 # Uploads directory
 uploads/
 
-# Model weights (Usually too large for GitHub without Git LFS)
-*.pth
-*.pt
-MultiMap_ViT_B16_best.pth
-
 # VS Code
 .vscode/
 
