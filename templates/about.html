@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- About Section -->
+<section class="about-section" id="about-section">
+    <div class="section-header">
+        <h2 class="section-title">About CornOrb</h2>
+        <p class="section-desc">Understanding the technology behind our diagnostic system</p>
+    </div>
+    <div class="about-grid">
+        <div class="about-card">
+            <div class="about-card-icon" style="background: linear-gradient(135deg, #6366f1, #818cf8);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="28" height="28">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                    <circle cx="12" cy="12" r="3"/>
+                </svg>
+            </div>
+            <h3>Multi-Map Fusion</h3>
+            <p>Analyzes 4 corneal topography maps simultaneously — Axial, Anterior Elevation, Posterior Elevation, and Pachymetry — through a 12-channel tensor for comprehensive corneal assessment.</p>
+        </div>
+        <div class="about-card">
+            <div class="about-card-icon" style="background: linear-gradient(135deg, #06b6d4, #22d3ee);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="28" height="28">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                    <path d="M2 17l10 5 10-5"/>
+                    <path d="M2 12l10 5 10-5"/>
+                </svg>
+            </div>
+            <h3>Vision Transformer</h3>
+            <p>Powered by ViT-B/16, which processes images as sequences of patches using self-attention, capturing long-range spatial dependencies for superior global pattern recognition of corneal deformation.</p>
+        </div>
+        <div class="about-card">
+            <div class="about-card-icon" style="background: linear-gradient(135deg, #10b981, #34d399);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="28" height="28">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+            </div>
+            <h3>99.07% Accuracy</h3>
+            <p>Our model achieved 99.07% validation accuracy through careful training with data augmentation, class-weighted loss, cosine annealing, and early stopping strategies.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

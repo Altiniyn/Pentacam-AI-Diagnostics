@@ -1,0 +1,8 @@
+Flask
+Pillow
+numpy
+torch
+torchvision
+timm
+pytesseract
+PyMuPDF

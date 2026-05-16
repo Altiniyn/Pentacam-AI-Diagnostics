@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Uploads directory
+uploads/
+
+# Model weights (Usually too large for GitHub without Git LFS)
+*.pth
+*.pt
+MultiMap_ViT_B16_best.pth
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/

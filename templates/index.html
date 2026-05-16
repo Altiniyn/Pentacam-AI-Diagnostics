@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero" id="hero">
+    <div class="hero-content">
+        <div class="hero-badge">Powered by Vision Transformer AI</div>
+        <h1 class="hero-title">
+            Advanced <span class="gradient-text">Keratoconus</span> Detection
+        </h1>
+        <p class="hero-subtitle">
+            Upload corneal topography maps for instant AI-powered diagnosis using our state-of-the-art 
+            multi-map fusion deep learning model with <strong>99.07%</strong> validation accuracy.
+        </p>
+        <a href="{{ url_for('diagnose') }}" class="hero-cta">
+            Start Diagnosis
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </div>
+    <div class="hero-visual">
+        <div class="eye-visualization">
+            <div class="eye-ring eye-ring-outer"></div>
+            <div class="eye-ring eye-ring-middle"></div>
+            <div class="eye-ring eye-ring-inner"></div>
+            <div class="eye-pupil"></div>
+            <div class="scan-line"></div>
+        </div>
+    </div>
+</section>
+{% endblock %}
